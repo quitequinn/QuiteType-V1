@@ -282,7 +282,7 @@ gulp.task('docs', [
 
 // Generate documentation
 gulp.task('tests', [
-	'test:scripts'
+	// 'test:scripts'
 ]);
 
 // Compile files, generate docs, and run unit tests (default)
