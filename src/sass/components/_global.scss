@@ -2,6 +2,13 @@ $qt-blue: rgb(0, 116, 217);
 $qt-red: rgb(254, 1, 57);
 
 
+body{
+	background: $color-gray-light;
+	text-rendering: geometricPrecision;
+	font-smoothing: subpixel-antialiased;
+	-webkit-font-smoothing: antialiased;
+}
+
 @keyframes spin {
     from {transform:rotate(0deg);}
     to {transform:rotate(360deg);}
