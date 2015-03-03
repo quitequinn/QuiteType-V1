@@ -11,6 +11,7 @@
 	width: $container-width;
 	margin-left: auto;
 	margin-right: auto;
+	@include containerPadding;
 }
 
 .row {
@@ -73,6 +74,17 @@
  		}
  	}
  }
+
+
+.grid-half-wrap{
+	padding: 0;
+	div, h2{
+		word-wrap: inherit;
+	}
+	@include m(max, $bp-large){
+  		width: 100%;
+	}
+}
 
 // Add clearfix
 .container,

@@ -3,20 +3,20 @@
 <head>
 	<meta charset="utf-8"/>
 
-	<title></title>
+	<title>Quite Type</title>
 
 	<link rel="profile" href="http://gmpg.org/xfn/11"/>
 
 	<!-- OGG Title & Description -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:title" content=""/>
-	<meta name="description" content="">
-	<meta name="keywords" content="" />
-	<meta property="og:description" content=""/>
+	<meta property="og:site_name" content="Quite Type"/>
+	<meta property="og:title" content="Quite Type"/>
+	<meta name="description" content="Web development and type design by Quinn Keaveney">
+	<meta name="keywords" content="Quite Type Web Development Design Quinn Keaveney Vancouver Chicago Berlin" />
+	<meta property="og:description" content="Web development and type design by Quinn Keaveney"/>
 	<meta property="og:image" content="fav.ico"/>
-	<meta property="og:url" content="">
+	<meta property="og:url" content="http://quitetype.com/">
 	<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
 
 	<!-- Icons: place in the root directory -->
