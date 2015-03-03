@@ -1857,6 +1857,31 @@ select:focus {
   fill: #0074d9;
 }
 /* line 57, ../components/_global.scss */
+.contact:nth-of-type(1) {
+  top: 25%;
+  left: 75%;
+}
+/* line 61, ../components/_global.scss */
+.contact:nth-of-type(2) {
+  top: 50%;
+  left: 25%;
+}
+/* line 65, ../components/_global.scss */
+.contact:nth-of-type(3) {
+  top: 75%;
+  left: 50%;
+}
+/* line 69, ../components/_global.scss */
+.contact:nth-of-type(4) {
+  top: 25%;
+  left: 25%;
+}
+/* line 74, ../components/_global.scss */
+.contact:nth-of-type(5) {
+  top: 75%;
+  left: 75%;
+}
+/* line 79, ../components/_global.scss */
 .contact:hover {
   color: #0074d9;
   fill: #0074d9;
@@ -1864,14 +1889,14 @@ select:focus {
   transition: all 0.3s;
   opacity: 1;
 }
-/* line 63, ../components/_global.scss */
+/* line 85, ../components/_global.scss */
 .contact span {
   display: block;
   color: #fff;
   line-height: 30px;
 }
 
-/* line 70, ../components/_global.scss */
+/* line 92, ../components/_global.scss */
 .box {
   position: absolute;
   width: 10px;
@@ -1881,7 +1906,7 @@ select:focus {
   z-index: 0;
 }
 
-/* line 79, ../components/_global.scss */
+/* line 101, ../components/_global.scss */
 .circle {
   position: absolute;
   width: 15px;
@@ -1890,12 +1915,12 @@ select:focus {
   z-index: 0;
 }
 
-/* line 87, ../components/_global.scss */
+/* line 109, ../components/_global.scss */
 .top {
   top: 0;
 }
 
-/* line 91, ../components/_global.scss */
+/* line 113, ../components/_global.scss */
 .bottom {
   bottom: 0;
   -webkit-transform: rotate(180deg);
@@ -1904,18 +1929,15 @@ select:focus {
   margin-bottom: -.25em;
 }
 
-/* line 97, ../components/_global.scss */
+/* line 119, ../components/_global.scss */
 .right {
   top: 0;
   left: initial;
-  width: 60px;
+  width: 20px;
   height: 100%;
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
 }
 @media (max-width: 600px) {
-  /* line 97, ../components/_global.scss */
+  /* line 119, ../components/_global.scss */
   .right {
     display: none;
   }
@@ -1924,25 +1946,25 @@ select:focus {
 #main[max-width~="600px"] .right {
   display: none;
 }
-/* line 106, ../components/_global.scss */
+/* line 127, ../components/_global.scss */
 .right h4 {
-  width: 250px;
-  bottom: -4em;
-  position: relative;
+  width: 300px;
+  margin-left: -160px;
+  margin-right: -140px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
-/* line 113, ../components/_global.scss */
+/* line 135, ../components/_global.scss */
 .left {
   top: 0;
   right: initial;
-  width: 60px;
+  width: 20px;
   height: 100%;
-  -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
 }
 @media (max-width: 600px) {
-  /* line 113, ../components/_global.scss */
+  /* line 135, ../components/_global.scss */
   .left {
     display: none;
   }
@@ -1951,21 +1973,23 @@ select:focus {
 #main[max-width~="600px"] .left {
   display: none;
 }
-/* line 122, ../components/_global.scss */
+/* line 143, ../components/_global.scss */
 .left h4 {
-  width: 250px;
-  bottom: 4em;
-  position: relative;
+  width: 300px;
+  margin-left: -120px;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
-/* line 129, ../components/_global.scss */
+/* line 150, ../components/_global.scss */
 path[stroke-linecap="round"] {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   stroke-width: 1;
   stroke: #0074d9;
 }
-/* line 133, ../components/_global.scss */
+/* line 154, ../components/_global.scss */
 path[stroke-linecap="round"]:hover {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -1973,14 +1997,14 @@ path[stroke-linecap="round"]:hover {
   stroke-width: 8;
 }
 
-/* line 140, ../components/_global.scss */
+/* line 161, ../components/_global.scss */
 path[stroke-linecap="square"] {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   stroke-width: 1;
   stroke: #0074d9;
 }
-/* line 145, ../components/_global.scss */
+/* line 166, ../components/_global.scss */
 path[stroke-linecap="square"]:hover {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -1988,7 +2012,7 @@ path[stroke-linecap="square"]:hover {
   fill: rgba(0, 116, 217, 0.5);
 }
 
-/* line 152, ../components/_global.scss */
+/* line 173, ../components/_global.scss */
 path[class="stuff"] {
   fill: red;
 }

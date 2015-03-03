@@ -54,6 +54,28 @@ $qt-red: rgb(254, 1, 57);
 	color: rgba($qt-blue, 1);
 	fill: rgba($qt-blue, 1);
 
+	&:nth-of-type(1){
+		top: 25%;
+		left: 75%;
+	}
+	&:nth-of-type(2){
+		top: 50%;
+		left: 25%;
+	}
+	&:nth-of-type(3){
+		top: 75%;
+		left: 50%;
+	}
+	&:nth-of-type(4){
+		top: 25%;
+		left: 25%;
+	}
+
+	&:nth-of-type(5){
+		top: 75%;
+		left: 75%;
+	}
+
 	&:hover{
 		color: rgba($qt-blue, 1);
 		fill: rgba($qt-blue, 1);
@@ -97,32 +119,31 @@ $qt-red: rgb(254, 1, 57);
 .right{
 	top: 0;
 	left: initial;
-	width: 60px;
+	width: 20px;
 	height: 100%;
-	transform: rotate(90deg);
 	@include m(max, $bp-small){
 		display: none;
 	}
 	h4{
-		width: 250px;
-		bottom: -4em;
-		position: relative;
+		width: 300px;
+  		margin-left: -160px;
+  		margin-right: -140px;
+		transform: rotate(90deg);
 	}
 }
 
 .left{
 	top: 0;
 	right: initial;
-	width: 60px;
+	width: 20px;
 	height: 100%;
-	transform: rotate(-90deg);
 	@include m(max, $bp-small){
 		display: none;
 	}
 	h4{
-		width: 250px;
-		bottom: 4em;
-		position: relative;
+		width: 300px;
+		margin-left: -120px;
+		transform: rotate(-90deg);
 	}
 }
 
