@@ -12,10 +12,10 @@
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
-<!-- Local Dependencies -->
+<!-- Local Dependencies
 <script src="vendor/jQuery-widowFix/js/jquery.widowFix-1.3.2.min.js"></script>
 <script src="vendor/hypher/jquery.hypher.js"></script>
-<script src="vendor/hypher/en-us.js"></script>
+<script src="vendor/hypher/en-us.js"></script> -->
 <script src="vendor/two/two.js"></script>
 <script src="vendor/two/url.js"></script>
 
@@ -26,17 +26,13 @@
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
 <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-
-
-
-
-	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-	function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-	e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-	e.src='//www.google-analytics.com/analytics.js';
-	r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-	ga('create','UA-XXXXX-X');ga('send','pageview');
+  ga('create', 'UA-60335541-1', 'auto');
+  ga('send', 'pageview');
 </script>
 
 </body>

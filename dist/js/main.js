@@ -17,21 +17,6 @@
 ////////////////////////////////////////////////
 	//Fix Widows
 	function fixType(){
-		var widows = 'p';
-		var hyphens = 'p';
-
-		// Fix widows
-		$(widows).each(function(){
-			var noBS = $(this).html().replace(/&nbsp;/g,' ');
-			$(this).html(noBS);
-		}).widowFix();
-
-		// Add Hyphens
-		$(hyphens).each(function(){
-			var noBS = $(this).html().replace(/&shy;/g,'');
-			$(this).html(noBS);
-			$(this).hyphenate('en-us');
-		})
 
 	}
 	fixType();
@@ -39,10 +24,7 @@
 ////////////////////////////////////////////////
 	//JS SPECIFIC LAYOUT ADJ
 	function forwidth(){
-		var winH = '.winH{ min-height:'+ $(window).height() +'px;}';
-		var winHalf = '.winHalf{ top:'+ ($(window).height()/2) +'px;}';
-		var styling = '<style>'+winH+winHalf+'</style>'
-		$('.jsdump').html(styling);
+
 	}
 	forwidth();
 
@@ -334,26 +316,24 @@ $('.bounce3').bounce({
 ////////////////////////////////////////////////
 
 ////////////////////////////////////////////////
-	//ON RESIZE
-	var updateLayout = _.debounce(function(e) {
-		forwidth();
-		if ($('.tag').length > 0) {checkTags()};
-		fixType();
-	}, 500);
-	window.addEventListener("resize", updateLayout, false);
+// 	//ON RESIZE
+// 	var updateLayout = _.debounce(function(e) {
 
-////////////////////////////////////////////////
-	//ON scroll
-	var scroll = _.throttle(function(e) {
+// 	}, 500);
+// 	window.addEventListener("resize", updateLayout, false);
 
-	}, 500);
-	window.addEventListener("scroll", scroll, false);
+// ////////////////////////////////////////////////
+// 	//ON scroll
+// 	var scroll = _.throttle(function(e) {
+
+// 	}, 500);
+// 	window.addEventListener("scroll", scroll, false);
 
 });
 
-$(window).load(function() {
+// $(window).load(function() {
 
 
-}); // `~*# The end.
+// }); // `~*# The end.
 
 
