@@ -87,7 +87,7 @@ var two = new Two({
 
 var letter = two.interpret(document.querySelector('.assets svg'));
 letter.stroke = 'rgb(254, 1, 57)';
-letter.fill = 'rgba(254, 1, 57, .3)';
+letter.fill = 'rgb(254, 1, 57)';
 letter.linewidth = radius;
 letter.stroke = editColor;
 
